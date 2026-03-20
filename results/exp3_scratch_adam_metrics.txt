@@ -1,0 +1,4 @@
+Experiment: exp3_scratch_adam
+Precision: 0.0956091840946726
+Recall: 0.09788671328944136
+F1: 0.08131799009327309

@@ -1,0 +1,4 @@
+Experiment: exp1_pretrained_adam
+Precision: 0.835626148956166
+Recall: 0.8150847393635234
+F1: 0.8101409123238726
