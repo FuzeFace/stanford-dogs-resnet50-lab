@@ -74,7 +74,3 @@
 
 ### Эксперимент 3: ResNet50 from scratch + Adam
 ![Exp3 Plot](results/exp3_plot.png)
-
-## Ссылки
-- [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
-- [ResNet50 Model in PyTorch](https://pytorch.org/hub/pytorch_vision_resnet/)
