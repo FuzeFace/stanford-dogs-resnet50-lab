@@ -64,13 +64,17 @@
    - Эксперимент с обучением модели с нуля дал гораздо хуже результаты, с **Precision = 0.0956**, **Recall = 0.0978** и **F1 = 0.0813**.
    - Это подчеркивает важность использования предобученных моделей, которые уже имеют опыт работы с похожими задачами.
 
-## Пример кода
+## Графики
 
-Пример кода для запуска экспериментов с использованием **ResNet50**:
+### Эксперимент 1: Pretrained + Adam
+![Exp1 Plot](results/exp1_plot.png)
 
-```python
-# Загрузка модели ResNet50 с предобученными весами
-model = models.resnet50(pretrained=True)
+### Эксперимент 2: Pretrained + Averaged Adam
+![Exp2 Plot](results/exp2_plot.png)
 
-# Обучение модели
-model, history = fit_model(model, train_loader, val_loader, device, epochs=5, lr=1e-4, optimizer_name="adam")
+### Эксперимент 3: ResNet50 from scratch + Adam
+![Exp3 Plot](results/exp3_plot.png)
+
+## Ссылки
+- [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
+- [ResNet50 Model in PyTorch](https://pytorch.org/hub/pytorch_vision_resnet/)
